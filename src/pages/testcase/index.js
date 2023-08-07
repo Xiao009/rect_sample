@@ -27,7 +27,7 @@ export const getStaticProps = async() => {
 
 import styles from '../../styles/testcase.module.css'
 
-const  testcase=({testcase})=>{
+const testcase = ({testcase})=> {
     return (
         // id and name, those properties are from the json file we fetch, we read the key then take value
        <div>
@@ -46,5 +46,5 @@ const  testcase=({testcase})=>{
 
     )
 }
+
 export default testcase;
-  

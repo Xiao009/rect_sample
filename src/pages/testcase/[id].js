@@ -1,3 +1,5 @@
+// tell web how many html pages needed to build id, prepare for future visis
+// you can use npm run build and view the result html page from there
 export const getStaticPaths = async() => {
     //await is used for asyn
     const res = await fetch("https://jsonplaceholder.typicode.com/users");
